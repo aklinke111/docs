@@ -44,7 +44,10 @@ In the file `D:\xampp\apache\php.ini` look for the lines »memory_limit« and »
 | Entry                   | Change                     |
 |:------------------------|:---------------------------|
 | **memory_limit = 512M** | **memory_limit = -1**      |
-| **;extension=intl**     | **extension=intl**         |
+| **;extension=intl**     | **extension=intl** 
+  **;extension=zip**      | **extension=zip**          |
+  **;extension=gd**       | **extension=gd**           |
+  
 
 {{% notice tip %}}
 The changes mentioned are mandatory for the installation via the [PHP composer](https://getcomposer.org/) or 
